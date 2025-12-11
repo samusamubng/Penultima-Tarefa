@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/Styles.css">
+    <title>Tarefa</title>
+</head>
+
+<body id="corpo">
+    <header id="cabecalho">
+        <h2>
+            Tarefas a serem adicionadas
+        </h2>
+    </header>
+    <main>
+        <form>
+            <label for="task">
+                Nova Tarefa:
+            </label>
+            <input type="text" id="task" name="task" placeholder="Digite sua tarefa aqui">
+            <button type="button" id="adicionar-tarefa">Adicionar Tarefa</button>
+        </form>
+        <br>
+        <div id="filtro">
+            <button id="Pendentes">Pendentes</button>
+            <button id="Concluidas">Concluidas</button>
+            <button id="Todas">Todas</button>
+        </div>
+        <h4>
+            Lista de Tarefas:
+        </h4>
+        <ul id="lista"></ul>
+    </main>
+    <footer>
+        <p id="task-counter"><span id="count">0</span> Tarefas Pendentes</p>
+        <p>&copy; Dezembro de 2025</p>
+    </footer>
+</body>
+<script src="../script/script.js"></script>
+
+</html>
